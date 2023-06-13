@@ -41,3 +41,6 @@ def test_sum_lucas():
     actual = sum_series(11,2,1)
     expected = 199
     assert actual == expected
+
+    #Run test
+    #pytest tests/test.series.py
